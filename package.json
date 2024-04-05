@@ -1,0 +1,41 @@
+{
+  "name": "node-starter",
+  "version": "1.0.0",
+  "description": "A NodeJS starter application to try out on Runnable.io",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RunnableDemo/node-starter.git"
+  },
+  "keywords": [
+    "react",
+    "babel",
+    "express",
+    "nodejs",
+    "ES6",
+    "Runnable",
+    "docker"
+  ],
+  "scripts": {
+    "prestart": "npm run migrate",
+    "start": "node index.js",
+    "migrate": "echo 'No migrations to run.'",
+    "test": "node_modules/.bin/mocha test"
+  },
+  "author": "Runnable, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RunnableDemo/node-starter/issues"
+  },
+  "homepage": "https://github.com/RunnableDemo/node-starter#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "4.14.0",
+    "mongoose": "^4.7.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7"
+  }
+}
